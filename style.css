@@ -1,0 +1,96 @@
+body {
+	
+	color: #001212;
+	font-size: 20px;
+	width: 900px;
+	margin: auto;
+		background-image: url(backgroundTexture2.jpg); 
+	background-size: 500px;
+	background-repeat: repeat;
+}
+div {
+	display: block;
+/*	display: inherit;*/
+}
+
+* {box-sizing: border-box;}
+
+.faraway {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 800px;
+	background-color: black;
+	background-image: url(backgroundTexture.jpg); 
+	background-size: 300px;
+	background-repeat: repeat;
+	box-shadow: 0px 0px 35px  rgba(0, 0, 0, 0.80);}
+}
+.social {align-items: center;}
+.links {
+
+	display: flex;
+	margin-top: 20px;
+		/*background-color: red;*/}
+
+.social a {
+/*	display: block;*/
+	font-size: 30px;
+	color: black;
+	font-family: "Tahoma", "arial";
+	text-decoration: none;
+}
+
+.icon { box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.60); border-radius: 25%; background: transparent; }
+
+#vkon:hover { box-shadow: 0px 0px 10px  rgba(70, 160, 255, 1);}
+#insta:hover { box-shadow: 0px 0px 10px  rgba(255, 10, 1, 1);}
+#fb:hover { box-shadow: 0px 0px 10px  rgba(70, 100, 255, 1);}
+
+a:hover {text-decoration: underline;} 
+a:active {color: red;}
+.avatar:active {width: 503px; box-shadow: 0px 0px 12px  rgba(0, 0, 0, 0.50);}
+#NAME {font-size: 40px; text-align: center;
+	font-family: "Tahoma", "arial";
+	font-style: normal;}
+
+	.vkon 
+		{ margin-left: 10px;}
+	.fb {margin-left: 10px;}
+			
+	.insta {
+		margin-left: 10px;
+		margin-right: 0px;}
+
+	#fb { border-radius: 50%; margin-left: 90px;}
+	#insta {margin-left: 180px;}
+	#vkon {margin-left: 20px;}
+
+
+#slavyanin {
+		font-family: "arial";
+		letter-spacing: 10px;
+		text-align: center;
+
+}
+.zagolovki {
+	text-align: center;
+	font-family: "Tahoma", "arial";
+	font-style: normal;
+	font-size: 30px;
+}
+.avatar {width: 500px;
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	box-shadow: 0px 0px 15px  rgba(0, 0, 0, 0.60);
+	 /* ТЕНЬ КАРТИНКИ */
+}
+
+.info p {
+	color: #5c5c5c;
+	margin: 5%;
+}
